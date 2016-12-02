@@ -77,7 +77,8 @@ int Menu_Main(void)
 
     // print to DRC
     OSScreenPutFontEx(1, 0, 0, "Hello world on DRC!!!");
-    OSScreenPutFontEx(1, 0, 1, "Press HOME-Button to exit.");
+    OSScreenPutFontEx(1, 0, 1, "Who is the crowd, that peers through the cage?");
+    OSScreenPutFontEx(1, 0, 2, "Press HOME-Button to exit.");
 
     // Flush the cache
     DCFlushRange(screenBuffer, screen_buf0_size);
